@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Title Name</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Headings Elements : Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h2>Heading 3</h2>
+        <h2>Heading 4</h2>
+        <h2>Heading 5</h2>
+        <h2>Heading 6</h2>
+        <p>This is para</p>
+        <div>Division : Div is a Blocl level element,adding New line and 100%width </div>
+        <span>Span : span is a Inline element,content Background space only</span>
+        <br/>
+        <hr/>
+        <button>Click me</button>
+        <img src="../photos/codegnanLogo.jpeg"/>
+        <header>Header Semantic Element</header>
+        <section>Section Semantic Elemnt</section>
+        <footer>Footer Semantic Element</footer>
+        <p>Lorem ipsum &nbsp;&nbsp;&nbsp;dolor sit amet consectetur adipisicing elit.<br/> Aut molestiae velit harum quod. Delectus eum nobis aspernatur perspiciatis commodi officiis expedita voluptatum repudiandae explicabo, excepturi amet eius provident recusandae ea.</p>
+    </div>
+</body>
+</html>
