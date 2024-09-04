@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form File</title>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Student Details Form</h1>
+            <label> Name : </label>
+            <input type="text" placeholder="Enter your Name" required/><br/><br.>
+        </br>
+            <label>Date Of Birth : </label>
+            <input type="date" /><br/><br/>
+            <label>Age : </label>
+            <input type="number" placeholder="Enter your age" required/><br/><br/>
+            <label>College Name : </label>
+            <input type="text" placeholder="Enter your college name" required/><br/><br/>
+            <label>Phone Number : </label>
+            <input type="number" placeholder="Enter phone number" required/><br/><br/>
+            <fieldset style="width:20%;">
+                <legend>Gender</legend>
+                <input type="radio" id="male" name="gender" value="male"/>
+                <label>Male</label><br/>
+                <input type="radio" id="female" name="gender" value="female"/>
+                <label>Female</label><br/>
+                <input type="radio" id="other" name="gender" value="other"/>
+                <label>other</label>
+                </fieldset><br/>
+            <fieldset style="width:20%;">
+                <legend>Skills</legend>
+                <input type="checkbox" id="HTML" name="skills" value="HTML"/>
+                <label>HTML</label><br/>
+                <input type="checkbox" id="CSS" name="skills" value="CSS"/>
+                <label>CSS</label><br/>
+                <input type="checkbox" id="Bootstrap" name="skills" value="Bootstrsp"/>
+                <label>Bootstrap</label><br/>
+                <input type="checkbox" id="Java" name="skills" value="Java"/>
+                <label>Java</label><br/>
+                <input type="checkbox" id="SQL" name="skills" value="SQL"/>
+                <label>SQL</label>
+            </fieldset>
+            <br/><br/>
+            <label> Select Role : </label>
+            <select>
+                <option value="Student">student</option>
+                <option value="employee">Employee</option>
+            </select><br/><br/>
+            <label> Resume : </label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required/>
+            <br/><br/>
+            <label> Gmail : </label>
+            <input type="text" placeholder="Enter your Email" required/>
+            <br/><br/>
+            <label> Password : </label>
+            <input type="password" required/>
+            <br/><br/>
+            <button>Submit</button>
+        
+        </form>
+    </div>
+</body>
+</html>
