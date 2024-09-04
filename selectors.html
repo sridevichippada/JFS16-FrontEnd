@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selectors</title>
+    <style>
+      /*universal selector
+        *{
+            background-color: rgba(224, 255, 255, 0.801);
+        }*/
+
+      /*element selector*/
+      span {
+        background-color: white;
+        color: blue;
+      }
+      p {
+        color: blueviolet;
+      }
+      body {
+        background-color: rgba(0, 128, 0, 0.836);
+      }
+      div {
+        background-color: aqua;
+      }
+
+      /* id selector*/
+      #myHeader {
+        background-color: orange;
+        color: white;
+      }
+
+      /*class selector*/
+      .myDivision {
+        background-color: greenyellow;
+        color: red;
+      }
+      .JFS16 {
+        background-color: blue;
+      }
+
+      /*element with ID selector*/
+      p#myp {
+        color: red;
+        background-color: white;
+      }
+      /*element with class selector*/
+      p.mycls {
+        background-color: yellow;
+        color: rgba(63, 14, 177, 0.726);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="myHeader">First Heading</h1>
+      <p id="mypara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+        nostrum excepturi, fugiat qui tempore, labore blanditiis enim delectus
+        veniam aut reiciendis cum ducimus possimus voluptates ullam eaque esse
+        perferendis dolor.
+      </p>
+      <span>This is span</span>
+      <h3>This heading is JFS16</h3>
+      <div class="myDivision">
+        <h2>Second Heading</h2>
+      </div>
+      <hr />
+      <div class="JFS16">
+        <h1>New Heading</h1>
+        <p id="myp">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+          dolores quidem, aliquid vel sit veniam magnam commodi voluptatem
+          nesciunt harum, maxime omnis, rerum nisi veritatis rem tenetur
+          cupiditate hic ducimus.
+        </p>
+        <p class="mycls">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quis
+          dolor delectus rerum expedita dolore. At et dolorum quos ex
+          reprehenderit dolorem assumenda doloribus dolores quas architecto
+          fuga, ducimus exercitationem!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
